@@ -1,0 +1,6 @@
+# /etc/modprobe.d/blacklist.conf, ubuntu에서는 /etc/modprobe.d/blacklist-nouveau.conf
+blacklist nouveau
+options nouveau modeset=0
+
+# yast boot loader -> kernel parameters, ubuntu에서는 필요없는 듯.
+modprobe.blacklist=nouveau

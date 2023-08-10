@@ -1,0 +1,49 @@
+local lsp = require("lspconfig")
+
+lsp.bashls.setup({})
+
+require("flutter-tools").setup({}) -- use defaults
+lsp.dartls.setup({})
+
+lsp.tsserver.setup({})
+
+lsp.lua_ls.setup({
+	settings = {
+		Lua = {
+			runtime = {
+				-- Tell the language server which version of Lua you're using (most likely LuaJIT in the case of Neovim)
+				version = "LuaJIT",
+			},
+			diagnostics = {
+				-- Get the language server to recognize the `vim` global
+				globals = { "vim" },
+			},
+			workspace = {
+				-- Make the server aware of Neovim runtime files
+				library = vim.api.nvim_get_runtime_file("", true),
+				checkThirdParty = false, -- THIS IS THE IMPORTANT LINE TO ADD
+			},
+			-- Do not send telemetry data containing a randomized but unique identifier
+			telemetry = {
+				enable = false,
+			},
+		},
+	},
+})
+
+lsp.java_language_server.setup({
+	cmd = { "/home/sklee/.bin/language-servers/java-language-server/dist/lang_server_linux.sh" },
+})
+
+-- require("lspconfig").jdtls.setup({
+-- 	cmd = {
+-- 		"jdtls",
+-- 		"-configuration",
+-- 		"/home/sklee/.local/opt/jdtls-launcher/jdtls/config_linux",
+-- 		"-data",
+-- 		"/home/sklee/workspace",
+-- 	},
+-- 	root_dir = function(fname)
+-- 		return require("lspconfig").util.root_pattern("pom.xml", "gradle.build", ".git")(fname) or vim.fn.getcwd()
+-- 	end,
+-- })

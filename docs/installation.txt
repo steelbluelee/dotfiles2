@@ -1,0 +1,67 @@
+*. nvidia driver
+  -. nouveau disable : nouveau_disable.txt 문서 참고
+  -. ubuntu는 특별히 다운 받거나 하지 말고 ubuntu에 기본으로 포함된 것을 사용.
+  -. nvidia-detector 실행
+  -. sudo apt install (위의 nvidia-detector 실행 결과)
+
+*. dropbox 설치
+  -. dropbox.com에서 앱 다운로드
+  -. dpkg -i dropbox~~~.deb
+  -. dropbox start -i
+  -. dropbox autostart
+  -. /etc/apt/trusted.gpg 파일을
+     /etc/apt/trusted.gpg.d/dropbox.gpg 파일로 옮겨야 하는 경우가 있음.
+
+*. $ apt install curl git # curl을 snap으로 설치하면 nvm에서 에러가 남.
+
+*. $ sudo apt install xsel xclip
+
+*. nerd-font
+  -. source code font를 다운받아서 $HOME/.local/share/fonts 폴더에
+     풀고 fc-cache -fv를 실행
+
+*. bash
+  -. oh my bash : theme은 powerline-multiline
+  -. .mybashrc.bash 파일을 링크하고 .bashrc에 추가
+     . $HOME/.mybashrc.bash와 같이 절대 경로로.
+     안 그러면, tmux와 같이 쉘을 다시 읽는 경우에 에러가 날 수 있음.
+  -. $ sudo apt install bash-completion # 보통은 디폴트로 설치되어 있음.
+
+*. tmux
+  -. tmux를 설치하고 .tmux.conf 파일을 링크
+  -. tmux plugin manager : tpm 설치
+  -. tmux : Prefix + I
+
+*. $HOME/.bin 폴더 링크 ==> 필요 없음
+  -. ln -sf ~/Dropbox/dotfiles/.bin
+  -. language 서버들이 여기 들어 있으므로, neovim 설치 이전에
+
+*. neovim 설치
+  -. sudo snap install nvim --classic
+  -. $HOME/.config/nvim 폴더 링크
+  -. nvim 실행
+  -. 필요한 경우 sudo apt install lua5.1 ==> 대부분은 필요 없음
+
+*. 각종 linter, formatter 설치 => neovim.txt
+
+*. fzf 설치
+  -. sudo apt install fzf
+  -. 단축키는 bash 설정에 포함되어 있음. bash resourcing이 필요
+
+*. ibus-hangul & keyboard 설정 => 리부팅 2번 필요
+
+*. chrome 설치
+  -. google에서 패키지 다운로드
+  -. dpkg로 설치 => apt로 설치
+
+*. android-studio, flutter
+  -. $HOME/development/ 아래에 설치
+  -. PATH는 bash 설정에 포함되어 있음.
+  -. android-studio는 snap으로 설치해도 상관이 없으나
+     flutter는 snap으로 설치하면 language server 때문에 고생을 많이 함.
+     둘 다 다운로드 받아서 설치하는 것을 추천
+  -. android-studio에 jre가 없다는 에러가 나면 android-studio/jbr을
+     android-studio/jre로 심볼릭 링크
+  -. android-studio -> sdk manager -> sdk tools -> Android sdk command-lint tools(cli) 체크
+  -. android-studio -> virtual device manager
+  -. flutter는 flutter 홈페이지에서 manual 설치 참조.
