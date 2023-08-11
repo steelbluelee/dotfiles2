@@ -30,20 +30,3 @@ lsp.lua_ls.setup({
 		},
 	},
 })
-
-lsp.java_language_server.setup({
-	cmd = { "/home/sklee/.bin/language-servers/java-language-server/dist/lang_server_linux.sh" },
-})
-
--- require("lspconfig").jdtls.setup({
--- 	cmd = {
--- 		"jdtls",
--- 		"-configuration",
--- 		"/home/sklee/.local/opt/jdtls-launcher/jdtls/config_linux",
--- 		"-data",
--- 		"/home/sklee/workspace",
--- 	},
--- 	root_dir = function(fname)
--- 		return require("lspconfig").util.root_pattern("pom.xml", "gradle.build", ".git")(fname) or vim.fn.getcwd()
--- 	end,
--- })

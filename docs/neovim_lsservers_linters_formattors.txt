@@ -1,0 +1,19 @@
+*. nvm
+  -. nvm 설치
+  -. $ nvm install --lts
+
+*. typescript, javascript
+  :MasonInstall typescript-language-server
+  :MasonInstall prettier
+
+*. lua
+  :MasonInstall lua-language-server
+  :NullLsInstall stylua
+
+*. bash
+  :MasonInstall bash-languager-server # node required
+  :NullLsInstall shecllcheck
+
+*. java
+  -. $ sudo apt install openjdk-20-jdk
+  -. google에서 jdtls launcher 검색하여 설치
