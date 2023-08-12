@@ -17,3 +17,5 @@
 *. java
   -. $ sudo apt install openjdk-20-jdk
   -. google에서 jdtls launcher 검색하여 설치
+  -. With switching to jdk 17 the problem seemed to be gone but I couldn't find out why this is, so far.
+  -. Try renaming/deleting ~/.cache/jdtls. And if that doesn't work switch to 17 and delete cache again
