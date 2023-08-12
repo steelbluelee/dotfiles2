@@ -65,3 +65,6 @@
   -. android-studio -> sdk manager -> sdk tools -> Android sdk command-lint tools(cli) 체크
   -. android-studio -> virtual device manager
   -. flutter는 flutter 홈페이지에서 manual 설치 참조.
+
+*. gnome-terminal theme
+  -. https://github.com/Gogh-Co/Gogh
