@@ -15,6 +15,7 @@ require("c_common.nvim-tree")
 require("c_common.telescope")
 require("c_common.toggleterm")
 require("c_common.treesitter")
+require("c_common/luasnip")
 --
 require("d_appearence.colorcheme")
 require("d_appearence.tabline")

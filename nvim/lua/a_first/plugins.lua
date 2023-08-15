@@ -70,7 +70,10 @@ require("lazy").setup({
 
 	-- For luasnip users.
 	"L3MON4D3/LuaSnip",
-	"saadparwaiz1/cmp_luasnip",
+	{
+		"saadparwaiz1/cmp_luasnip",
+		dependencies = { "rafamadriz/friendly-snippets" },
+	},
 
 	-- telescope
 	{
