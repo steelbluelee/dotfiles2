@@ -3,7 +3,6 @@ require("a_first.basic") -- should be the first line
 require("a_first.plugins") -- should be the second line
 --
 require("b_programming.mason")
-require("b_programming.mason-null-ls")
 require("b_programming.lsp_config")
 require("b_programming.null-ls")
 require("b_programming.lsp_keymaps")

@@ -18,6 +18,7 @@ require("lazy").setup({
 			require("mason").setup()
 		end,
 	},
+	"williamboman/mason-lspconfig.nvim",
 	{
 		"jay-babu/mason-null-ls.nvim",
 		event = { "BufReadPre", "BufNewFile" },
@@ -29,7 +30,8 @@ require("lazy").setup({
 		-- require("your.null-ls.config") -- require your null-ls config here (example below)
 		-- end,
 	},
-	"williamboman/mason-lspconfig.nvim",
+	"jose-elias-alvarez/null-ls.nvim",
+
 	"neovim/nvim-lspconfig",
 
 	"folke/tokyonight.nvim",
@@ -107,7 +109,6 @@ require("lazy").setup({
 	},
 	"famiu/bufdelete.nvim",
 	"jlanzarotta/bufexplorer",
-	"jose-elias-alvarez/null-ls.nvim",
 
 	{
 		"folke/trouble.nvim",
