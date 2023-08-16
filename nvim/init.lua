@@ -20,3 +20,5 @@ require("c_common/luasnip")
 require("d_appearence.colorcheme")
 require("d_appearence.tabline")
 require("d_appearence.lualine")
+--
+require("my-keymaps")
