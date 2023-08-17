@@ -1,6 +1,8 @@
 lua vim.bo.filetype="sh"
 vim.fn.stdpath("data")
 
+:lua print(vim.loop.os_uname().sysname)
+
 git branch -m master main
 git fetch origin
 git branch -u origin/main main
