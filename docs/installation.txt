@@ -68,3 +68,7 @@
 
 *. gnome-terminal theme
   -. https://github.com/Gogh-Co/Gogh
+
+*. gnome virtual desktop navigation key : Super+Control+Left, Super+Control+Right
+  -. $ sudo apt install dconf-editor
+  -. switch-to-workspace-left, switch-to-workspace-rigth 검색 
