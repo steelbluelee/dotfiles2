@@ -72,3 +72,5 @@
 *. gnome virtual desktop navigation key : Super+Control+Left, Super+Control+Right
   -. $ sudo apt install dconf-editor
   -. switch-to-workspace-left, switch-to-workspace-rigth 검색 
+
+*. terminator 폴더를 ~/.config/terminator 폴더로 링크
