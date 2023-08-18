@@ -2,30 +2,17 @@
   -. nvm 설치
   -. $ nvm install --lts
 
-*. typescript, javascript
-  -. $ npm install -g typescript-language-server typescript
-  -. $ npm install -g eslint
-  -. $ npm install -g prettier
+*. pipx 설치 ==> djlint(null-ls html.mustache에서 필요)
+  -. $ sudo apt isntall pipx
 
-*. lua - language server -> lua language server homepage -> getting started wiki
-  -. $ sudo apt install gcc g++ clang ninja-build
-  -. $ git clone https://github.com/LuaLS/lua-language-server
-  -. cd lua-language-server
-  -. ./make.sh
-  -. bin/lua-language-server --version
-
-*. lua - stylua
-  -. $ sudo snap install rustup --classic
-  -. $ rustup install stable
-  -. $ rustup default stable
-  -. $ cargo install stylua
-
-*. bash
-  -. $ npm i -g bash-language-server
-  -. $ sudo apt install shellcheck
-  -. $ sudo snap install go --classic
-  -. $ go install mvdan.cc/sh/v3/cmd/shfmt@latest
-
-*. java
-  -. $ sudo apt install openjdk-20-jdk
-  -. google에서 jdtls launcher 검색하여 설치
+*. Mason
+    Installed
+    ◍ bash-language-server bashls
+    ◍ djlint
+    ◍ html-lsp html
+    ◍ jdtls
+    ◍ lua-language-server lua_ls
+    ◍ prettier
+    ◍ shellcheck
+    ◍ stylua
+    ◍ typescript-language-server tsserver
