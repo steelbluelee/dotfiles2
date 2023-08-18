@@ -1,4 +1,4 @@
-[global_config]
+[lobal_config]
   focus = mouse
   window_state = maximise
   extra_styling = False
