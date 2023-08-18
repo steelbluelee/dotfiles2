@@ -6,9 +6,10 @@
   -. $ sudo apt isntall pipx
 
 *. Mason
-    Installed
+  Installed
     ◍ bash-language-server bashls
     ◍ djlint
+    ◍ groovy-language-server groovyls
     ◍ html-lsp html
     ◍ jdtls
     ◍ lua-language-server lua_ls
