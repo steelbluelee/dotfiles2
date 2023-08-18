@@ -5,6 +5,13 @@
 *. pipx 설치 ==> djlint(null-ls html.mustache에서 필요)
   -. $ sudo apt isntall pipx
 
+*. Java lombok
+  -. Download lombok.jar from lombok's website
+  -. Put it in ~/.config/nvim/jars/
+  -. Add this to my .bashrc : 나의 경우에는 .mybashrc.bash
+      export JDTLS_JVM_ARGS="-javaagent:$HOME/.local/share/java/lombok.jar"
+  -. "jdtls lombok"로 검색하면 reddit에 다른 방법도 있지만, 이 방법이 가장 쉬움.
+
 *. Mason
   Installed
     ◍ bash-language-server bashls

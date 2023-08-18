@@ -22,3 +22,5 @@ alias fr='flutter run'
 alias cdd='cd $HOME/Dropbox/devs/nodejs/nodebird/'
 alias frw='flutter run -d chrome --web-renderer html'
 alias cn='cd $HOME/.confg/nvim'
+
+export JDTLS_JVM_ARGS="-javaagent:$HOME/.config/nvim/jars/lombok.jar"
