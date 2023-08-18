@@ -32,5 +32,6 @@ lsp.lua_ls.setup({
 })
 --
 require("lspconfig").jdtls.setup({})
+require("lspconfig").groovyls.setup({})
 
 require("lspconfig").html.setup({})
