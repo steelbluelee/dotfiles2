@@ -1,0 +1,28 @@
+[global_config]
+  focus = mouse
+  window_state = maximise
+  extra_styling = False
+[keybindings]
+  zoom_in = <Primary><Shift>plus
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#1a1b26"
+    background_darkness = 0.92
+    font = SauceCodePro Nerd Font Mono 13
+    foreground_color = "#a9b1d6"
+    show_titlebar = False
+    scrollback_infinite = True
+    palette = "#1a1b26:#f7768e:#9ece6a:#e0af68:#7aa2f7:#9a7ecc:#4abaaf:#acb0d0:#4e5173:#f7768e:#9ece6a:#e0af68:#7aa2f7:#9a7ecc:#4abaaf:#acb0d0"
+    use_system_font = False
+    copy_on_selection = True
+    split_to_group = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
