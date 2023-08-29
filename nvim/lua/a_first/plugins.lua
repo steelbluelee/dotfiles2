@@ -134,4 +134,5 @@ require("lazy").setup({
 	},
 	-- mustache
 	"mustache/vim-mustache-handlebars",
+	"vim-test/vim-test",
 }, { lockfile = vim.fn.stdpath("state") .. "/lazy-lock.json" })
