@@ -25,6 +25,7 @@ alias cn='cd $HOME/.confg/nvim'
 
 export JDTLS_JVM_ARGS="-javaagent:$HOME/.config/nvim/jars/lombok.jar"
 
+# ps axuf | grep -e "new\-session.*SessionMoon" | grep -v grep | rev | cut -d ' ' -f 1 | rev
 tmx () {
     # Use -d to allow the rest of the function to run
     tmux new-session -d -s SessionMoon

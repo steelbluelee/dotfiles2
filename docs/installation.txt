@@ -67,6 +67,7 @@
   -. flutter는 flutter 홈페이지에서 manual 설치 참조.
 
 *. gnome-terminal theme
+  -. google에서 gnome terminal tokyo night theme 검색
   -. https://github.com/Gogh-Co/Gogh
 
 *. gnome virtual desktop navigation key : Super+Control+Left, Super+Control+Right
