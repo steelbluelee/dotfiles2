@@ -24,3 +24,16 @@ alias frw='flutter run -d chrome --web-renderer html'
 alias cn='cd $HOME/.confg/nvim'
 
 export JDTLS_JVM_ARGS="-javaagent:$HOME/.config/nvim/jars/lombok.jar"
+
+tmx () {
+    # Use -d to allow the rest of the function to run
+    tmux new-session -d -s SessionMoon
+    tmux new-window -n Win2
+    # -d to prevent current window from changing
+    # tmux new-window -d -n Win2
+    # -d to detach any other client (which there shouldn't be,
+    # since you just created the session).
+    tmux select-window -t :=1
+    tmux rename-window Win1
+    tmux attach-session -d -t SessionMoon
+}
