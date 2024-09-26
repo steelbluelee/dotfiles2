@@ -2,6 +2,10 @@
   -. nvm 설치
   -. $ nvm install --lts
 
+*. sdkman -> jdk 설치
+  -. sdk list java
+  -. sdk install maven
+
 *. pipx 설치 ==> djlint(null-ls html.mustache에서 필요)
   -. $ sudo apt isntall pipx
 
