@@ -16,6 +16,7 @@ fi
 
 export PATH="$PATH:$HOME/.bin:$HOME/development/flutter/bin:$HOME/development/android-studio/bin"
 export PATH="$PATH":"$HOME/.pub-cache/bin":"$HOME/.cargo/bin":"$HOME/go/bin":"$HOME/.local/bin"
+export PATH="$PATH:$HOME/anaconda3/bin"
 
 alias fe='flutter emulators --launch P3a'
 alias fr='flutter run'
