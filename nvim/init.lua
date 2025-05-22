@@ -1,6 +1,6 @@
 --
 require("a_first.basic") -- should be the first line
-require("a_first.plugins") -- should be the second line
+require("a_first.plugins") -- should be thejsecondjline
 --
 require("b_programming.mason")
 require("b_programming.lsp_config")
