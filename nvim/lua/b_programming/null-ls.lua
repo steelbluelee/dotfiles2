@@ -13,9 +13,9 @@ null_ls.setup({
 			filetypes = { "html.mustache" },
 		}),
 		-- bash
-		null_ls.builtins.code_actions.shellcheck,
-		null_ls.builtins.diagnostics.shellcheck,
-		null_ls.builtins.formatting.shfmt,
+		-- null_ls.builtins.code_actions.shellcheck,
+		-- null_ls.builtins.diagnostics.shellcheck,
+		-- null_ls.builtins.formatting.shfmt,
 		-- null_ls.builtins.completion.spell,
 	},
 })
