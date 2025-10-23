@@ -1,16 +1,17 @@
 local lsp = require("lspconfig")
 -- local l = vim.lsp.config
 
-lsp.bashls.setup({})
+-- lsp.bashls.setup({})
+vim.lsp.enable('bashls')
 -- l.bashls.setup({})
 
 require("flutter-tools").setup({}) -- use defaults
--- lsp.dartls.setup({})
+lsp.dartls.setup({})
 
--- lsp.tsserver.setup({})
 lsp.ts_ls.setup({})
 
 lsp.lua_ls.setup({
+-- l.lua_ls.setup({
 	settings = {
 		Lua = {
 			runtime = {
