@@ -132,6 +132,11 @@ require("lazy").setup({
 		},
 		config = true,
 	},
+	{
+		"pmizio/typescript-tools.nvim",
+		dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+		opts = {},
+	},
 	-- mustache
 	"mustache/vim-mustache-handlebars",
 	"vim-test/vim-test",
