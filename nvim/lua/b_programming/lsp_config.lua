@@ -1,6 +1,3 @@
-local lsp = require("lspconfig")
--- local l = vim.lsp.config
-
 -- lsp.bashls.setup({})
 vim.lsp.enable('bashls')
 -- l.bashls.setup({})
