@@ -1,6 +1,6 @@
 vim.keymap.set("n", "<Leader><Leader>", ",", { noremap = true })
-vim.keymap.set("i", "<ESC>", "<ESC>:set imdisable<CR>", { noremap = true })
-vim.keymap.set("i", "jk", "<ESC>set iminsert=0", { noremap = true })
+vim.keymap.set("i", "<ESC>", "<ESC>:set iminsert<CR>", { noremap = true })
+vim.keymap.set("i", "jk", "<ESC>:set iminsert=0<CR>", { noremap = true })
 vim.keymap.set("n", "i", ":set noimd<CR>i", { noremap = true })
 vim.keymap.set("n", "I", ":set noimd<CR>I", { noremap = true })
 vim.keymap.set("n", "a", ":set noimd<CR>a", { noremap = true })
