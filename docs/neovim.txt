@@ -28,3 +28,6 @@
     ◍ shellcheck
     ◍ stylua
     ◍ typescript-language-server tsserver
+
+*. TreeSitter for html
+  -. :TSInstall javascript css embedded_template
