@@ -124,8 +124,8 @@ require("lazy").setup({
     event = "InsertEnter",
     opts = {}, -- this is equalent to setup({}) function
   },
-  { "akinsho/toggleterm.nvim",         version = "*",   config = true },
-  { "nvim-treesitter/nvim-treesitter", cmd = "TSUpdate" },
+  { "akinsho/toggleterm.nvim", version = "*", config = true },
+  -- { "nvim-treesitter/nvim-treesitter", cmd = "TSUpdate" },
   {
     "kylechui/nvim-surround",
     version = "*", -- Use for stability; omit to use `main` branch for the latest features

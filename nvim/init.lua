@@ -1,5 +1,5 @@
 --
-require("a_first.basic") -- should be the first line
+require("a_first.basic")   -- should be the first line
 require("a_first.plugins") -- should be thejsecondjline
 --
 require("b_programming.mason")
@@ -14,7 +14,7 @@ require("c_common.keymaps_buffer")
 require("c_common.nvim-tree")
 require("c_common.telescope")
 require("c_common.toggleterm")
-require("c_common.treesitter")
+-- require("c_common.treesitter")
 require("c_common.luasnip")
 --
 require("d_appearence.colorcheme")
