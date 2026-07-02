@@ -113,12 +113,15 @@ require("lazy").setup({
   },
 
   --commenter
-  {
-    "numToStr/Comment.nvim",
-    config = function()
-      require("Comment").setup()
-    end,
-  },
+  -- {
+  --   "numToStr/Comment.nvim",
+  --   config = function()
+  --     require("Comment").setup()
+  --   end,
+  -- },
+  --
+  -- commenter
+  "https://github.com/nvim-mini/mini.comment",
   {
     "windwp/nvim-autopairs",
     event = "InsertEnter",
